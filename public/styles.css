@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+}
+
+header {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0px;
+  background: white;
+}
+
+nav {
+  min-height: 10vh;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h3,
+nav ul {
+  font-size: 1.5rem;
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+section {
+  min-height: 100vh;
+
+  padding-top: 7vh;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 5rem;
+  color: white;
+}
+
+section .imgResume {
+  padding: 5rem;
+}
+
+section .imgResume img {
+  height: 200vh;
+}
+
+section div.content {
+  padding-top: 3rem;
+}
+
+section div.text {
+  padding: 5rem;
+  font-size: 1.5rem;
+  line-height: 5.25vh;
+}
+section .content img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+}
+/* ui gradients */
+.projects {
+  background: #50c9c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #96deda,
+    #50c9c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #96deda,
+    #50c9c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resume {
+  background: #ff8008; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffc837,
+    #ff8008
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffc837,
+    #ff8008
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about {
+  background: #003973; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #e5e5be,
+    #73aae0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #e5e5be,
+    #73aae0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

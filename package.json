@@ -2,10 +2,14 @@
   "name": "presentation-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
-    "start": "start index.html"
+    "start": "node app.js"
   },
   "author": "Prajwal",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
 }
