@@ -61,7 +61,7 @@ section .imgResume {
 }
 
 section .imgResume img {
-  height: 200vh;
+  width: 100%;
 }
 
 section div.content {
