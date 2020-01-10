@@ -1,0 +1,11 @@
+{
+  "name": "presentation-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "start index.html"
+  },
+  "author": "Prajwal",
+  "license": "ISC"
+}
