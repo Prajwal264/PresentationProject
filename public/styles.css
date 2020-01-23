@@ -83,6 +83,7 @@ section .content img {
 }
 /* ui gradients */
 .projects {
+  padding-bottom: 5rem;
   background: #50c9c3; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,
@@ -140,6 +141,7 @@ section .content img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 .card:hover {
